@@ -1,7 +1,7 @@
 from tkinter import *
 from tkinter import  messagebox
 import  mysql.connector as m1
-con=m1.connect(host='localhost',user='root', database='personaldetails',password='harsh@31')
+con=m1.connect(host='localhost',user='root', database='personaldetails',password='')
 root = Tk()
 root.geometry('600x400+50+50')
 root.title('frame demo')
